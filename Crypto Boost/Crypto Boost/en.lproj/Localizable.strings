@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Crypto Boost
+
+  Created by Rostyslav Mukoida on 12/02/2024.
+  
+*/
+"Don't have an account?" = "Don't have an account?";
+"Sign Up" = "Sign Up";
+"Sign in" = "Sign in";
+"Sign up now" = "Sign up now";
+"Log In" = "Log In";
+"Email Address" = "Email Address";
+"Password" = "Password";
+"Enter your email address..." = "Enter your email address...";
+"Enter your password..." = "Enter your password...";
+"Email address cannot be empty" = "Email adress cannot be empty";
+"Password cannot be empty" = "Password cannot be empty";
