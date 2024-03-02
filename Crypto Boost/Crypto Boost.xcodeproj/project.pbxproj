@@ -3,23 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		617E82AF0CDA1683E1C291C1 /* Pods_Crypto_Boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083FEF7226F316CE50023DF4 /* Pods_Crypto_Boost.framework */; };
 		63754C462B7AD39300BCAA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63754C452B7AD39300BCAA15 /* AppDelegate.swift */; };
 		63754C4A2B7AD39300BCAA15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63754C492B7AD39300BCAA15 /* LoginViewController.swift */; };
 		63754C4F2B7AD39400BCAA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63754C4E2B7AD39400BCAA15 /* Assets.xcassets */; };
 		63754C522B7AD39400BCAA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63754C502B7AD39400BCAA15 /* LaunchScreen.storyboard */; };
 		63754C5A2B7AD7DD00BCAA15 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63754C592B7AD7DD00BCAA15 /* String+Ex.swift */; };
 		63754C602B7AD8E600BCAA15 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63754C622B7AD8E600BCAA15 /* Localizable.strings */; };
-		63754C662B7DA33300BCAA15 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 63754C652B7DA33300BCAA15 /* SnapKit */; };
 		63754C762B802A7C00BCAA15 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63754C752B802A7C00BCAA15 /* Properties.swift */; };
-		63754CA12B86BA7F00BCAA15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 63754CA02B86BA7F00BCAA15 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		63754C422B7AD39300BCAA15 /* Crypto Boost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Boost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		083FEF7226F316CE50023DF4 /* Pods_Crypto_Boost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Boost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A52671000728451F1D8F2D /* Pods-Crypto Boost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Boost.release.xcconfig"; path = "Target Support Files/Pods-Crypto Boost/Pods-Crypto Boost.release.xcconfig"; sourceTree = "<group>"; };
+		5812C974BD78A8A29CF56BE4 /* Pods-Crypto Boost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Boost.debug.xcconfig"; path = "Target Support Files/Pods-Crypto Boost/Pods-Crypto Boost.debug.xcconfig"; sourceTree = "<group>"; };
 		63754C452B7AD39300BCAA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63754C492B7AD39300BCAA15 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		63754C4E2B7AD39400BCAA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		63754C612B7AD8E600BCAA15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63754C632B7AD8F400BCAA15 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63754C752B802A7C00BCAA15 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		63A6161D2B92A83B0097A864 /* Crypto Boost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Boost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,8 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63754CA12B86BA7F00BCAA15 /* Kingfisher in Frameworks */,
-				63754C662B7DA33300BCAA15 /* SnapKit in Frameworks */,
+				617E82AF0CDA1683E1C291C1 /* Pods_Crypto_Boost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,16 +49,10 @@
 			isa = PBXGroup;
 			children = (
 				63754C442B7AD39300BCAA15 /* Crypto Boost */,
-				63754C432B7AD39300BCAA15 /* Products */,
+				69AFFA441EFAA059C1437FB4 /* Pods */,
+				9DCE8767E8717EB247BE6A13 /* Frameworks */,
+				63A6161D2B92A83B0097A864 /* Crypto Boost.app */,
 			);
-			sourceTree = "<group>";
-		};
-		63754C432B7AD39300BCAA15 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63754C422B7AD39300BCAA15 /* Crypto Boost.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		63754C442B7AD39300BCAA15 /* Crypto Boost */ = {
@@ -107,6 +102,23 @@
 			path = Properties;
 			sourceTree = "<group>";
 		};
+		69AFFA441EFAA059C1437FB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5812C974BD78A8A29CF56BE4 /* Pods-Crypto Boost.debug.xcconfig */,
+				43A52671000728451F1D8F2D /* Pods-Crypto Boost.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DCE8767E8717EB247BE6A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083FEF7226F316CE50023DF4 /* Pods_Crypto_Boost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,21 +126,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63754C562B7AD39500BCAA15 /* Build configuration list for PBXNativeTarget "Crypto Boost" */;
 			buildPhases = (
+				37CB5429BB03562885DC42C7 /* [CP] Check Pods Manifest.lock */,
 				63754C3E2B7AD39300BCAA15 /* Sources */,
 				63754C3F2B7AD39300BCAA15 /* Frameworks */,
 				63754C402B7AD39300BCAA15 /* Resources */,
+				86F23E4F406978FAAF92EF48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Crypto Boost";
-			packageProductDependencies = (
-				63754C652B7DA33300BCAA15 /* SnapKit */,
-				63754CA02B86BA7F00BCAA15 /* Kingfisher */,
-			);
 			productName = "Crypto Boost";
-			productReference = 63754C422B7AD39300BCAA15 /* Crypto Boost.app */;
+			productReference = 63A6161D2B92A83B0097A864 /* Crypto Boost.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +157,7 @@
 				};
 			};
 			buildConfigurationList = 63754C3D2B7AD39300BCAA15 /* Build configuration list for PBXProject "Crypto Boost" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -156,11 +166,7 @@
 				ru,
 			);
 			mainGroup = 63754C392B7AD39300BCAA15;
-			packageReferences = (
-				63754C642B7DA33300BCAA15 /* XCRemoteSwiftPackageReference "Snapkit" */,
-				63754C9F2B86BA7F00BCAA15 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-			);
-			productRefGroup = 63754C432B7AD39300BCAA15 /* Products */;
+			productRefGroup = 63754C392B7AD39300BCAA15;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -181,6 +187,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37CB5429BB03562885DC42C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto Boost-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F23E4F406978FAAF92EF48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crypto Boost/Pods-Crypto Boost-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crypto Boost/Pods-Crypto Boost-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crypto Boost/Pods-Crypto Boost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63754C3E2B7AD39300BCAA15 /* Sources */ = {
@@ -337,16 +385,19 @@
 		};
 		63754C572B7AD39500BCAA15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5812C974BD78A8A29CF56BE4 /* Pods-Crypto Boost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QHZ94TSC9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Crypto Boost/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,16 +415,19 @@
 		};
 		63754C582B7AD39500BCAA15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A52671000728451F1D8F2D /* Pods-Crypto Boost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QHZ94TSC9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Crypto Boost/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,38 +465,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		63754C642B7DA33300BCAA15 /* XCRemoteSwiftPackageReference "Snapkit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/Snapkit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		63754C9F2B86BA7F00BCAA15 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		63754C652B7DA33300BCAA15 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 63754C642B7DA33300BCAA15 /* XCRemoteSwiftPackageReference "Snapkit" */;
-			productName = SnapKit;
-		};
-		63754CA02B86BA7F00BCAA15 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 63754C9F2B86BA7F00BCAA15 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63754C3A2B7AD39300BCAA15 /* Project object */;
 }
