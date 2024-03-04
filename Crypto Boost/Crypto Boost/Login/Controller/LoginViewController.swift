@@ -242,7 +242,7 @@ class LoginViewController: UIViewController {
     
     private func configureTextField(_ field: UITextField){
         
-        field.borderStyle = .roundedRect
+       
         field.backgroundColor = mainColor
         field.layer.borderColor = linesColor.cgColor
         field.layer.borderWidth = 1
@@ -251,6 +251,10 @@ class LoginViewController: UIViewController {
         field.autocapitalizationType = .none
         field.autocorrectionType = .no
         field.tintColor = .systemOrange
+        
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: field.frame.height))
+            field.leftView = paddingView
+            field.leftViewMode = .always
        
     }
     

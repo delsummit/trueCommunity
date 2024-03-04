@@ -15,6 +15,7 @@
 		63754C5A2B7AD7DD00BCAA15 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63754C592B7AD7DD00BCAA15 /* String+Ex.swift */; };
 		63754C602B7AD8E600BCAA15 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63754C622B7AD8E600BCAA15 /* Localizable.strings */; };
 		63754C762B802A7C00BCAA15 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63754C752B802A7C00BCAA15 /* Properties.swift */; };
+		63A6161F2B95457C0097A864 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6161E2B95457C0097A864 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		63754C632B7AD8F400BCAA15 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63754C752B802A7C00BCAA15 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 		63A6161D2B92A83B0097A864 /* Crypto Boost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Boost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A6161E2B95457C0097A864 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				63754C792B802C5C00BCAA15 /* Properties */,
 				63754C452B7AD39300BCAA15 /* AppDelegate.swift */,
+				63A6161E2B95457C0097A864 /* SceneDelegate.swift */,
 				63754C5D2B7AD80700BCAA15 /* Login */,
 				63754C5B2B7AD7EA00BCAA15 /* Extensions */,
 				63754C4E2B7AD39400BCAA15 /* Assets.xcassets */,
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A6161F2B95457C0097A864 /* SceneDelegate.swift in Sources */,
 				63754C5A2B7AD7DD00BCAA15 /* String+Ex.swift in Sources */,
 				63754C4A2B7AD39300BCAA15 /* LoginViewController.swift in Sources */,
 				63754C762B802A7C00BCAA15 /* Properties.swift in Sources */,
